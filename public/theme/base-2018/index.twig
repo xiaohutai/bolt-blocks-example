@@ -7,9 +7,6 @@
         <div class="columns">
             <div class="column is-two-thirds">
 
-                {# Remove this include if you don't need it anymore. #}
-                {{ include('partials/_fresh_install.twig') }}
-
                 {% setcontent homepage = "homepage" limit 1 returnsingle %}
                 {% if homepage %}
                 <div class="content">
@@ -32,7 +29,7 @@
 </section>
 
 {# Pages section #}
-
+{#
 <section class="section section-pages hero is-success is-bold">
     <div class="container">
         <h2 class="title">Pages</h2>
@@ -63,9 +60,9 @@
         </div>
     </div>
 </section>
-
+#}
 {# Latest entries #}
-
+{#
 <section class="section section-latest-entries">
     <div class="container">
         <h2 class="title">Latest Entries</h2>
@@ -94,6 +91,7 @@
         </div>
     </div>
 </section>
+#}
 
 {% include "partials/_sub_recent_records.twig" %}
 

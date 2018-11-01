@@ -6,21 +6,19 @@ main:
       title: This is the first menu item.
       path: homepage
       class: first
-    - label: Second item
-      path: entry/1
+    - label: Page 1
+      path: page/1
       submenu:
-          - label: Sub 1
-            path: entry/2
-          - label: Sub 2
-            class: menu-item-class
-            path: entry/3
-          - label: Sub 3
-            path: entry/4
-          - label: Sub 4
-            class: sub-class
+          - label: Page 2
+            path: page/2
+          - label: Page 3
             path: page/3
+          - label: Page 4
+            path: page/4
+          - label: Page 5
+            path: page/5
     - label: All pages
-      path: pages/
+      path: pages
     - label: The Bolt site
-      link: http://bolt.cm
+      link: https://bolt.cm
       class: last
